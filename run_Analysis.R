@@ -1,4 +1,4 @@
-##Read the required files
+##Read all the required files
 
       ##Features and activity labels
       setwd("/Users/juanpablormzrdz/Documents/RStudio Coursera/GettingandCleaningData")
