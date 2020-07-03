@@ -45,5 +45,5 @@
       str(data)
       
 ##Tidy data set with the average of each variable for each activity and each subject
-      tidydata <- dcast(data,Activity & Subject ~ features$V2, mean)
+      write.table(tidydata <- dcast(data,Activity & Subject ~ features$V2, mean),file="tidydata.txt")
       
