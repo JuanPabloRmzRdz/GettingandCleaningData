@@ -32,7 +32,7 @@
       colnames(X_test) <- features$V2
       test <- cbind(subject_test,y_test,X_test)
 
-#Merging test and train
+#Merging test and train data sets
       data<-rbind(test,train)
       
 ##Taking mean and std data for each measurement
